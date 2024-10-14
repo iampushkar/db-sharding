@@ -6,6 +6,7 @@ public class ShardConfig {
 
     public ShardConfig() {
         shardMap = new HashMap<>();
+        // Initialize two "shards" (simulated as two separate DB instances)
         shardMap.put(0, "DB Shard 1"); // Simulate shard 1
         shardMap.put(1, "DB Shard 2"); // Simulate shard 2
     }
